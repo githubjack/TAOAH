@@ -1,0 +1,33 @@
+
+
+.global-nav{
+  width:100%;
+  height: auto;
+  position:relative;
+}
+.global-nav .navbar-toggle{
+  width:36px;
+  height: 36px;
+  display:flex;
+  flex-direction: column;
+  position:absolute;
+  right:10%;
+  top:10px;
+  background-color:lightgrey;
+}
+/*
+States: opened and closed
+*/
+.global-nav.opened{
+  display:flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-inline:0 10%;
+}
+.global-nav.closed{
+  display: none;
+}
+.global-nav a {
+  padding-block: 4px;
+  text-decoration: none;
+}
