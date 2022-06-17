@@ -3,31 +3,29 @@
 .global-nav{
   width:100%;
   height: auto;
-  position:relative;
 }
-.global-nav .navbar-toggle{
-  width:36px;
-  height: 36px;
-  display:flex;
-  flex-direction: column;
-  position:absolute;
-  right:10%;
-  top:10px;
-  background-color:lightgrey;
-}
+
 /*
-States: opened and closed
+Add MQ for .navbar-toggle and .global-nav .urls
 */
-.global-nav.opened{
+.global-nav .navbar-toggle{
+  position: absolute;
+  right:10px;
+  top:10px;
+}
+
+
+.global-nav .urls{
   display:flex;
   flex-direction: column;
-  align-items: flex-end;
-  padding-inline:0 10%;
+  width:100%;
+  padding-block:64px 32px;
+  padding-inline:4% 0;
+  background-color:#fff;
 }
-.global-nav.closed{
-  display: none;
-}
-.global-nav a {
-  padding-block: 4px;
+.urls a{
   text-decoration: none;
+  font-weight: 600;
+  padding-block: 0.24em;
 }
+
