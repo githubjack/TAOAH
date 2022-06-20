@@ -1,0 +1,25 @@
+.hero-title{
+  position: relative;
+  display:flex;
+  flex-direction: column;
+  color: #fff;
+}
+
+.hero-title h2{
+  padding-block: 2em 1em;
+  padding-inline:1.6em;
+  font-size:2.5rem;
+  font-weight:400;
+  opacity: .7;
+}
+
+.hero-title p{
+  font-style: italic;
+  text-align: right;
+  display: flex;
+  margin-top:auto;
+  justify-content: flex-end;
+  padding-inline: 0 2.5em;
+  opacity: 1;
+  font-weight: 600;;
+}

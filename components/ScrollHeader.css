@@ -1,8 +1,16 @@
 .scroll-header{
   width: 100%;
-  padding-top: 48px;
+  padding-top: 68px;
 }
 
 .hero{
-  padding: 24px;
+  height:100vh;
+  background-color:rgb(54, 51, 51);
+  background-image: url('../assets/marcus-garvey.png');
+  background-size:cover;
+  background-position: 0% 16px;
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+  background-blend-mode:difference;
+
 }
