@@ -20,12 +20,13 @@ Add MQ for .navbar-toggle and .global-nav .urls
   flex-direction: column;
   width:100%;
   padding-block:64px 32px;
-  padding-inline:4% 0;
-  background-color:#fff;
+  padding-inline:72px 0;
+  background-color:#0f0e0e;
 }
 .urls a{
   text-decoration: none;
   font-weight: 600;
   padding-block: 0.24em;
+  color:#fff;
 }
 

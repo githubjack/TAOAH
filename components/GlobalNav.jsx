@@ -22,8 +22,8 @@ export function GlobalNav() {
       <div 
         className="navbar-toggle">
       {toggleMenu
-          ? <RiCloseLine color="#000" size={27} onClick={() => setToggleMenu(false)} />
-          : <RiMenu3Line color="#000" size={27} onClick={() => setToggleMenu(true)} />
+          ? <RiCloseLine color="#fff" size={27} onClick={() => setToggleMenu(false)} />
+          : <RiMenu3Line color="#fff" size={27} onClick={() => setToggleMenu(true)} />
         }
       </div>
       {toggleMenu && (
