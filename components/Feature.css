@@ -1,0 +1,6 @@
+.feature-card{
+  padding:1em;
+  margin-block: 0 1em;
+  border:1px solid lightslategray;
+  border-radius: 0.25em;
+}

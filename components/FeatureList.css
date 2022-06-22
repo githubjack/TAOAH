@@ -1,0 +1,16 @@
+.card-list{
+  margin-block: 0 1em;
+  border:1px solid lightslategray;
+  border-radius: 0.25em;
+}
+.card-list-header{
+/*
+Add image info here ?
+*/
+}
+.card-list-content{
+  padding:1em;
+}
+.card-list-footer{
+  padding:1em;
+}
